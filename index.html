@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #c7e8ff;
+    }
+    #myVideo {
+      box-shadow: 0px 0px 10px 1px #3485ff;
+    }
+    canvas {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <video id="myVideo" width="720" height="540" autoplay muted></video>
+  <script src="assets/face-api.min.js"></script>
+  <script src="demo.js"></script>
+</body>
+</html>
